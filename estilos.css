@@ -1,4 +1,15 @@
-.fuente1{ font-family: 'Fondamento', cursive;
+.fuente1{ 
+        font-family: 'Fondamento', cursive;
     }
 
-    
+
+.fondo{
+        background-image: url("img/soberband.jpg") ;
+        height: 600px;
+        background-attachment: fixed;
+}   
+
+.zoom{
+        transition: transform .2s;
+    }
+.zoom:hover{        transform: scale(1.3); }
